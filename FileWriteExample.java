@@ -11,7 +11,7 @@ public class FileWriteExample {
         String text = sc.nextLine();
 
         try {
-            // true means append mode
+            
             FileOutputStream fos = new FileOutputStream("output.txt", true);
 
             fos.write(text.getBytes());
