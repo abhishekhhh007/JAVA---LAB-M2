@@ -15,7 +15,7 @@ public class BufferedCopy {
 
             int data;
 
-            // Read from input.txt and write to output.txt
+        
             while ((data = bis.read()) != -1) {
                 bos.write(data);
             }
